@@ -24,7 +24,7 @@ spec:
       description: |
         flag (`true` | `false`) to indicate if the task should fail or continue
         if issues are found in the Dockerfile lint
-      default: "true"
+      default: "false"
     - name: hadolint-image
       description: image containing hadolint (default to hadolint/hadolint:v1.18.0-alpine)
       default: "hadolint/hadolint:v1.18.0-alpine"
